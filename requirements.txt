@@ -1,0 +1,10 @@
+numpy>=1.6
+scipy>=0.13
+astropy>=1.0
+matplotlib
+lockfile
+pysynphot
+fortranformat
+cython
+requests
+telfit>=1.0
