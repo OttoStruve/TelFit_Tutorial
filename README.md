@@ -6,7 +6,7 @@ This repository holds materials for the tutorial on TelFit usage, taking place o
 The first thing to do is download the tutorial. The best way to do this is type:
 
 ```bash
-git pull https://github.com/OttoStruve/TelFit_Tutorial
+git clone https://github.com/OttoStruve/TelFit_Tutorial
 cd TelFit_Tutorial
 ```
 
