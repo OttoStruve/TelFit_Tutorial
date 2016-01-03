@@ -16,8 +16,15 @@ Before the tutorial, please make sure you have a working environment that includ
 
 ```bash
 ./setup_environment_conda.sh
+source activate telfit_tutorial
 ```
 If you don't use anaconda python, you should create a virtual environment for the tutorial and then type
 ```bash
 pip install -r requirements.txt
 ```
+
+Once you have the environment setup, run 
+```bash
+python check_env.py
+```
+to make sure that the environment is set up correctly. You can ignore warnings about "PYSYN_CDBS not found". It is telling you that datafiles for pysynphot are not downloaded, but telfit doesn't use that part of the code so it doesn't affect us. If you see any messages about some package not found, then you will need to make sure to install that package.
